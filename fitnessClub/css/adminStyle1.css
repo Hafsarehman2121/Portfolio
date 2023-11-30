@@ -1,0 +1,111 @@
+.abc{
+	padding-top: 150px;
+	padding-left: 200px;
+	background: url('../img/para-01.jpg') no-repeat center center;
+	color: #fff;
+	
+}
+.abc:before {
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(22,122,192,0.8);
+	top: 0;
+	left: 0
+}
+.box-content{
+
+}
+
+.box{
+	background-color: SteelBlue;
+	box-shadow: 0 0 0 8px #E2E9ED;
+	padding: 60px 10px;
+	position: relative;
+	
+	transition: 0.2s all;
+	width: 250px;
+
+
+}
+.box:hover{
+	z-index: 1;
+	box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+	transform: scale(1.05);
+}
+.box .box-content{
+	margin: 10px 0;
+	
+}
+.box .box-content .title{
+	color: #313435;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.4rem;
+	margin: 0;
+}
+.box1{
+	background-color: SteelBlue;
+	box-shadow: 0 0 0 8px #E2E9ED;
+	padding: 60px 10px;
+	position: relative;
+	z-index: 0;
+	transition: 0.2s all;
+	width: 250px;
+	margin-left: 350px;
+	margin-top: -165px;
+
+}
+.box1:hover{
+	z-index: 1;
+	box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+	transform: scale(1.05);
+}
+.box1 .box-content{
+	margin: 10px 0;
+	
+}
+.box1 .box-content .title{
+	color: #313435;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.4rem;
+	margin: 0;
+}
+.box2{
+	background-color: SteelBlue;
+	box-shadow: 0 0 0 8px #E2E9ED;
+	padding: 60px 10px;
+	position: relative;
+	z-index: 0;
+	transition: 0.2s all;
+	width: 250px;
+	margin-left: 700px;
+	margin-top: -165px;
+
+}
+.box2:hover{
+	z-index: 1;
+	box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+	transform: scale(1.05);
+}
+.box2 .box-content{
+	margin: 10px 0;
+	
+}
+.box2 .box-content .title{
+	color: #313435;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.4rem;
+	margin: 0;
+}
+.butt{
+	margin-top: 30px ;
+	border-radius: 20px;
+	
+}

@@ -1,0 +1,8 @@
+<?php
+require 'includes/connection.php';
+if (sesssion_start())
+{
+	          $_SESSION['userID'];
+              $_SESSION['userFullName'];
+              $_SESSION['userType'] ;
+}
